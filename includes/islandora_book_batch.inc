@@ -167,7 +167,7 @@ class IslandoraFlatBatchObject extends IslandoraScanBatchObject {
    */
   protected function getMods() {
     if (!isset($this['MODS'])) {
-      $mods_datastream = $this->constructDatastream('MODS', 'X');
+      $mods_datastream = $this->constructDatastream('MODS', 'M');
       $mods_datastream->mimetype = 'application/xml';
       $mods_datastream->label = 'MODS Record';
 
