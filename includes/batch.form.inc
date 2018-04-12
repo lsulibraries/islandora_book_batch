@@ -59,7 +59,7 @@ function islandora_book_batch_form($form, &$form_state, $object) {
         '#type' => 'checkbox',
         '#title' => t('Generate OCR?'),
         '#description' => t('Whether or not we should generate OCR for the pages of the book.'),
-        '#default_value' => TRUE,
+        '#default_value' => FALSE,
       );
       $form['aggregate_ocr'] = array(
         '#type' => 'checkbox',
